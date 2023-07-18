@@ -16,7 +16,7 @@
 	let keyDialogOpen = false;
 
 	let sendNotifDialogOpen = false;
-	let notif = { title: "", body: "" };
+	let notif = { title: "Test", body: "Testing Notifications" };
 	let subId = null;
 
 	async function triggerLoadSubscriptions() {
