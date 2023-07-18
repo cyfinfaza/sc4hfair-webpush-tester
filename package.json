@@ -1,0 +1,30 @@
+{
+	"name": "sc4hfair-webpush-tester",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"smui-compile": "smui-theme compile public/smui.css -i src/theme",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@smui/button": "^7.0.0-beta.14",
+		"@smui/card": "^7.0.0-beta.14",
+		"@smui/dialog": "^7.0.0-beta.14",
+		"@smui/layout-grid": "^7.0.0-beta.14",
+		"@smui/textfield": "^7.0.0-beta.14",
+		"@sveltejs/vite-plugin-svelte": "^2.4.2",
+		"sass": "^1.63.6",
+		"svelte": "^4.0.3",
+		"vite": "^4.4.0"
+	},
+	"dependencies": {
+		"@smui/common": "^7.0.0-beta.14",
+		"@smui/icon-button": "^7.0.0-beta.14",
+		"@smui/top-app-bar": "^7.0.0-beta.14",
+		"smui-theme": "^7.0.0-beta.14",
+		"ua-parser-js": "^1.0.35"
+	}
+}

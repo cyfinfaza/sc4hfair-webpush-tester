@@ -1,0 +1,9 @@
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+// @use "./theme/dark/_smui-theme.scss";
+@use "@material/typography/mdc-typography";
+@use "@material/typography/mixins" as typography;
+
+body {
+	margin: 0;
+	@include typography.typography("body1");
+}
